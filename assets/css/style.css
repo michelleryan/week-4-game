@@ -1,0 +1,45 @@
+.instructions {
+	color: green;
+	font-family: 'Georgia', 'Times New Roman';
+	font-size: 20px;
+	font-style: bold;
+	background-color: #ffffcc;
+	margin-bottom: 10px;
+	
+}
+
+body {
+	background-image: url(../images/blue-background.png);
+}
+
+.number {
+	padding: 30px;
+	background-color: #ffff99;
+	margin-bottom: 20px;
+}
+
+.score {
+	padding: 20px;
+	background-color: #66ccff;
+	margin-bottom: 20px;
+}
+
+button img {
+	/*margin: 5px;*/
+	height: 60px;
+	width: 60px;
+}
+
+.guess-num {
+	padding: 30px;
+	background-color: #ffff99;
+	margin-bottom: 20px;
+}
+
+h4 {
+	/*padding: 30px;*/
+	background-color: #ffff99;
+	margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collectors Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- link in bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="assets/javascript/game.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row page-header">
+			<!-- <h1>Crystals Collector!</h1> -->
+			<h1><span class="label label-success">Crystals Collector!</span></h1>
+		</div>
+		<div class="row">
+			<div class="col-md-6 instructions">
+				<div>
+					<p>You will be given a random number at the start of the game. <br><br>
+					There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.<br><br>
+					The value of each crystal is hidden from you until you click on it.<br><br>
+					Each time when the game starts, the game will change the values of each crystal.<br><br>
+					</p>
+				</div>	
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="col-lg-6 number">
+					<div class="col-lg-6">
+						<div id="random-num"></div>
+					</div>
+				</div>
+				<div class="col-lg-6 score">
+					<div class="wins">Wins:</div>
+					<div class="losses">Losses: </div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<button id="button-1" class="btn btn-default crystal" value="blue"><img src="assets/images/blue-crystal.png" alt="blue"></button>
+            	<button id="button-2" class="btn btn-default crystal" value="purple"><img src="assets/images/purple-crystal.png" alt="purple"></button>
+            	<button id="button-3" class="btn btn-default crystal" value="red"><img src="assets/images/red-crystal.png" alt="red"></button>
+            	<button id="button-4" class="btn btn-default crystal" value="green"><img src="assets/images/green-crystal.jpg" alt="green"></button>
+			</div>		
+		</div>
+				
+		<div class="row">
+			<div class="col-lg-6">
+				<h4><div>Your total score is:</div></h4>
+				<div class="guess-num">Guess Number</div>
+			</div>
+		</div>
+	</div>
+		
+
+</body>
+</html>
